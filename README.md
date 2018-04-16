@@ -24,7 +24,7 @@ Usage is the same as The League's OAuth client, using `\WellingGuzman\OAuth2\Cli
 
 ```php
 $provider = new WellingGuzman\OAuth2\Client\Provider\Okta([
-    'baseUri'           => '{base-uri}',
+    'baseUrl'           => '{base-url}',
     'clientId'          => '{okta-client-id}',
     'clientSecret'      => '{okta-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
