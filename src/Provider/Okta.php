@@ -1,13 +1,13 @@
 <?php
 
-namespace Directus\Authentication;
+namespace WellingGuzman\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
-use League\OAuth2\Client\Provider\Exception\OktaIdentityProviderException;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Psr\Http\Message\ResponseInterface;
+use WellingGuzman\OAuth2\Client\Provider\Exception\OktaIdentityProviderException;
 
 class Okta extends AbstractProvider
 {
